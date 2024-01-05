@@ -11,7 +11,7 @@ program.parse(process.argv);
 let { input, output } = program.opts();
 
 if (!output) {
-	output = input + '.patched';
+	output = input;
 }
 
 input = path.resolve(input);
